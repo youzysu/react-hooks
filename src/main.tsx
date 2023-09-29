@@ -5,6 +5,6 @@ import './index.css';
 const root = ReactDOM.createRoot(document.getElementById('root')!);
 root.render(<App />);
 
-export function renderApp() {
+export function reRender() {
   root.render(<App />);
 }
